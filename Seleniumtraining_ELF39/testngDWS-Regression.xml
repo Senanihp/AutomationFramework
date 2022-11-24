@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="pom_Testcases.DWS_Camera_Test"/>
+      <class name="pom_Testcases.DWS_Cellphones_test"/>
+      <class name="pom_Testcases.DWS_Digital_Test"/>
+      <class name="pom_Testcases.DWS_NewsLetter_test"/>
+      <class name="pom_Testcases.DWS_acc_Test"/>
+      <class name="pom_Testcases.DWS_Jewellary_test"/>
+      <class name="pom_Testcases.DWS_Wishlist_test"/>
+      <class name="pom_Testcases.DWS_Notebook_test"/>
+      <class name="pom_Testcases.DWS_Books_Test"/>
+      <class name="pom_Testcases.DWS_GiftCard_Test"/>
+      <class name="pom_Testcases.DWS_Login_Test"/>
+      <class name="pom_Testcases.DWS_Register_test"/>
+      <class name="pom_Testcases.DWS_Searchpage_test"/>
+      <class name="pom_Testcases.DWS_apparel_Test"/>
+      <class name="pom_Testcases.DWS_Desktop_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

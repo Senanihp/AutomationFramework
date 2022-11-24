@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 21 17:54:00 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>703 seconds (703402 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pom_Testcases.DWS_Camera_Test.TC08()'><b>TC08</b><br>Test class: pom_Testcases.DWS_Camera_Test</td>
+<td></td>
+<td>2</td>
+<td>pom_Testcases.DWS_Camera_Test@7ef82753</td></tr>
+<tr>
+<td title='pom_Testcases.DWS_Notebook_test.TC07()'><b>TC07</b><br>Test class: pom_Testcases.DWS_Notebook_test</td>
+<td></td>
+<td>4</td>
+<td>pom_Testcases.DWS_Notebook_test@6bbe85a8</td></tr>
+<tr>
+<td title='pom_Testcases.DWS_Wishlist_test.TC04()'><b>TC04</b><br>Test class: pom_Testcases.DWS_Wishlist_test</td>
+<td></td>
+<td>1</td>
+<td>pom_Testcases.DWS_Wishlist_test@795509d9</td></tr>
+<tr>
+<td title='pom_Testcases.DWS_Login_Test.TC01()'><b>TC01</b><br>Test class: pom_Testcases.DWS_Login_Test<br>Parameters: senani@gmail.com, senani12</td>
+<td></td>
+<td>1</td>
+<td>pom_Testcases.DWS_Login_Test@548d708a</td></tr>
+<tr>
+<td title='pom_Testcases.DWS_apparel_Test.TC12()'><b>TC12</b><br>Test class: pom_Testcases.DWS_apparel_Test</td>
+<td></td>
+<td>19</td>
+<td>pom_Testcases.DWS_apparel_Test@cb0755b</td></tr>
+<tr>
+<td title='pom_Testcases.DWS_Desktop_Test.TC07()'><b>TC07</b><br>Test class: pom_Testcases.DWS_Desktop_Test</td>
+<td></td>
+<td>2</td>
+<td>pom_Testcases.DWS_Desktop_Test@33065d67</td></tr>
+<tr>
+<td title='pom_Testcases.DWS_Digital_Test.tc05()'><b>tc05</b><br>Test class: pom_Testcases.DWS_Digital_Test<br>Parameters: Price: Low to High, 12, Grid</td>
+<td></td>
+<td>6</td>
+<td>pom_Testcases.DWS_Digital_Test@74e28667</td></tr>
+<tr>
+<td title='pom_Testcases.DWS_NewsLetter_test.TC05()'><b>TC05</b><br>Test class: pom_Testcases.DWS_NewsLetter_test</td>
+<td></td>
+<td>0</td>
+<td>pom_Testcases.DWS_NewsLetter_test@1cf6d1be</td></tr>
+<tr>
+<td title='pom_Testcases.DWS_Searchpage_test.TC03()'><b>TC03</b><br>Test class: pom_Testcases.DWS_Searchpage_test</td>
+<td></td>
+<td>0</td>
+<td>pom_Testcases.DWS_Searchpage_test@53fb3dab</td></tr>
+<tr>
+<td title='pom_Testcases.DWS_Jewellary_test.tc05()'><b>tc05</b><br>Test class: pom_Testcases.DWS_Jewellary_test<br>Parameters: Price: Low to High, 12, Grid</td>
+<td></td>
+<td>11</td>
+<td>pom_Testcases.DWS_Jewellary_test@19e4653c</td></tr>
+<tr>
+<td title='pom_Testcases.DWS_GiftCard_Test.tc05()'><b>tc05</b><br>Test class: pom_Testcases.DWS_GiftCard_Test<br>Parameters: Price: Low to High, 12, Grid</td>
+<td></td>
+<td>15</td>
+<td>pom_Testcases.DWS_GiftCard_Test@4be29ed9</td></tr>
+<tr>
+<td title='pom_Testcases.DWS_Books_Test.TC10()'><b>TC10</b><br>Test class: pom_Testcases.DWS_Books_Test</td>
+<td></td>
+<td>2</td>
+<td>pom_Testcases.DWS_Books_Test@3a7442c7</td></tr>
+<tr>
+<td title='pom_Testcases.DWS_Cellphones_test.TC09()'><b>TC09</b><br>Test class: pom_Testcases.DWS_Cellphones_test</td>
+<td></td>
+<td>12</td>
+<td>pom_Testcases.DWS_Cellphones_test@7161d8d1</td></tr>
+<tr>
+<td title='pom_Testcases.DWS_acc_Test.TC06()'><b>TC06</b><br>Test class: pom_Testcases.DWS_acc_Test</td>
+<td></td>
+<td>4</td>
+<td>pom_Testcases.DWS_acc_Test@663c9e7a</td></tr>
+<tr>
+<td title='pom_Testcases.DWS_Register_test.TC02()'><b>TC02</b><br>Test class: pom_Testcases.DWS_Register_test</td>
+<td></td>
+<td>3</td>
+<td>pom_Testcases.DWS_Register_test@4b013c76</td></tr>
+</table><p>
+</body>
+</html>
